@@ -1,0 +1,24 @@
+h1{
+    color:orangered;
+}
+
+h2{
+    color:hotpink;
+    font-style: italic;
+}
+
+h3{
+    color:grey;
+}
+
+h4{
+    color:lightpink;
+}
+
+.parrafo{
+    font-size: small;
+}
+
+#favorito {
+    font-weight: bold;
+}
