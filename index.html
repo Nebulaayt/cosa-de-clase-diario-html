@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diario mio</title>
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
 
+<h4 id="fechaActual"></h4>
+    
     <h1 id="favorito">
         Diario de Fer
     </h1>
@@ -17,28 +21,48 @@
         hola haha
     </h2>
 
+    
+
 
     <p class="parrafo">
         Este es mi diario de clase de robotica! Yo aqui escibire cosas y hare cambios guays para probar diferentes cosas! </br> Esta pagina web sera muy ummm pues no se estara guay supongo no lo se 
         probablemente si pues emmmmm entonces eso espero que os guste!
     </p>
+    
+    <h4> 
+        :3 
+    </h4>
 
-    <h4> Cosas que he hecho hoy en clase, 10/10/23:</h4>
-    <ul>
+    <h3> Cosas que he hecho hoy en clase, 10/10/23:</h3>
+    <ul id="lista">
         <li>iniciar sesion en cuenta de github</li>
         <li>crear un nuevo repositorio</li>
         <li>instalar un server http</li>
         <li>crear una nueva pagina web en github!!!!!!!!</li>
     </ul>
 
-    <h4> Cosas que he hecho hoy en clase, 17/10/23:</h4>
-    <ul>
+    <h3> Cosas que he hecho hoy en clase, 17/10/23:</h3>
+    <ul id="lista">
         <li>hacer style.css!!!</li>
         <li>cambiar color de todos los "h"!!!!</li>
         <li>crear una clase de estilo de css!</li>
-        <li>aprender sobre bootstrap!!!!!!!</li>
+    </ul>
+
+    <h3> Cosas que he hecho hoy en clase, 24/10/23:</h3>
+    <ul id="lista">
+        <li>aprender mas sobre javascript!!!!!</li>
+        <li>añadir la etiqueta de script!!</li>
+        <li>crear un "hello world"!</li>
+        <li>añadir una cosa para enseñar el tiempo en la pagina web :>!!!!!!</li>
     </ul>
 
 
 </body>
+
+<script> 
+    const fecha = new Date(Date.now());
+    const elementoFecha = document.getElementById("fechaActual");
+    elementoFecha.innerHTML = fecha;
+</script>
+
 </html>
